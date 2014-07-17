@@ -1,0 +1,3 @@
+#!/bin/sh
+
+adb shell am start -a android.settings.AIRPLANE_MODE_SETTINGS ; adb shell input keyevent 19 ; adb shell input keyevent 23 ; adb shell input keyevent 4
